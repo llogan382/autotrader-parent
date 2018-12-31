@@ -1,11 +1,8 @@
-<?php
-$features = wp_get_post_terms($post->ID, TF_SEEK_HELPER::get_post_type() . '_extras', array("fields" => "names"));
-if(sizeof($features)) :
-    ?>
-    <div class="col col_1_4">
-        <h3><?php _e('Extras', 'tfuse'); ?></h3>
-        <ul>
-            <?php foreach($features as $feature) echo '<li>' . $feature . '</li>'; ?>
-        </ul>
-    </div>
-<?php endif; ?>
+
+
+<?php $extra = get_field('lwd_extra_features');?>
+
+<div class="col col_1_4">
+    <h3>Extra Features</h3>
+        <?php echo  $extra ?>
+</div>

@@ -2,7 +2,6 @@
 $details_tabs = tfuse_options('details_tabs',array());
 if(sizeof($details_tabs) && (!empty($details_tabs[0]['tab_title']) || !empty($details_tabs[0]['tab_content']))) :
     $tabs = 0; ?>
-
     <!-- details tabs -->
     <div class="details_tabs">
 
@@ -33,7 +32,7 @@ if(sizeof($details_tabs) && (!empty($details_tabs[0]['tab_title']) || !empty($de
                     $content = str_replace('%%contact_seller%%', $contact_seller, $content);
                 }
 
-                if(is_numeric(mb_strpos($content, '%%interior_features%%'))){
+                if(is_numeric(mb_strpos($content, '%%interior_features%%'))){ //var_dump(1);
                     ob_start(); get_template_part('offer-views/shortcodes/interior','features'); $interior_features = ob_get_contents(); ob_end_clean();
                     $content = str_replace('%%interior_features%%', $interior_features, $content);
                 }

@@ -23,7 +23,8 @@ function themeprefix_lightslider_thumbslider() {
 	
 			<ul id="light-slider" class="image-gallery">
 			
-			<?php foreach( $images as $image ): ?>
+            <?php foreach( $images as $image ): ?>
+<?php print_r($image['ID']);?>
 			
 				<li data-thumb="<?php echo $image['url']; ?>">
 					<a href=""><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
@@ -36,11 +37,13 @@ function themeprefix_lightslider_thumbslider() {
 ?>
 
 <!-- offer left -->
+
 <div class="offer_gallery">
     <div class="gallery_images">
         <div id="gallery_images">
+            
 
-        <?php themeprefix_lightslider_thumbslider();?>
+				<?php themeprefix_lightslider_thumbslider();?>
             
         </div>
     </div>
