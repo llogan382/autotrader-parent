@@ -1,0 +1,178 @@
+*** AutoTrader Changelog ***
+
+ 2018.05.24 - version 1.3.21
+ * GDPR improvements
+	autotrader-parent/js/advanced.js
+	autotrader-parent/js/contact_forms.js
+	autotrader-parent/js/offer_forms.js
+	autotrader-parent/js/reservation_frontend.js
+	autotrader-parent/offer-views/shortcodes/contact-seller.php
+	autotrader-parent/style.css
+
+ 2018.05.02 - version 1.3.20
+ * Minor fixes
+	autotrader-parent/style.css
+
+ 2018.01.29 - version 1.3.19
+ * Added filter for customize year of the auto
+	autotrader-parent/taxonomy.php
+	autotrader-parent/template-search.php
+	autotrader-parent/js/general.js
+
+ 2017.11.14 - version 1.3.18
+ * Add style for Gallery widget WP 4.9
+	autotrader-parent/style.css
+
+ 2017.10.4 - version 1.3.17
+ * fixed exclude VAT for vehicles
+	autotrader-parent/js/advanced.js
+ * minor changes for https URL
+	autotrader-parent/js/infobox.js
+
+ 2017.08.16 - version 1.3.16
+ * Text Widget fix for WP 4.8.1
+	autotrader-parent/style.css
+
+ 2017.07.04 - version 1.3.15
+ * Fixed bug slider in single post
+	autotrader-parent/js/general.js
+	autotrader-parent/style.css
+ * Minor fix for send data in Vehicle details
+	autotrader-parent/js/offer_forms.js
+ * Text Widget fix for WP 4.8
+	autotrader-parent/style.css
+ * Apostrophe broke the json_encode
+	autotrader-parent/header-map.php
+
+ 2017.01.11 - version 1.3.14
+ * Added price number fromat filter in search template
+	autotrader-parent/template-search.php
+ * Fixed price number fomat in taxonomy pages
+	autotrader-parent/taxonomy.php
+ * Added mileage number format filter
+	autotrader-parent/taxonomy.php
+ * Added the number paparmeter to the number format filters
+	autotrader-parent/template-search.php
+ 
+ 2016.07.12 - version 1.3.13
+ * fixed google maps API key
+	autotrader-parent/header-map.php
+	autotrader-parent/offer-views/side-left.php
+ * disabled prettyPhoto deep linking
+	autotrader-parent/js/general.js
+ 
+ 2016.04.11 - version 1.3.12
+ * minor changes for wp 4.5
+	autotrader-parent/js/general.js
+ 
+ 2016.03.21 - version 1.3.11
+ * added the price parameter in the number format filter
+	autotrader-parent/offer-views/side-right.php
+ 
+ 2016.03.13 - version 1.3.10
+ * replaced http:// with //
+	autotrader-parent/content-single.php
+	autotrader-parent/header-map.php
+	autotrader-parent/header.php
+ * minor changes for site_url
+	autotrader-parent/header.php
+ 
+ 2016.03.01 - version 1.3.9
+ * minor changes for carousel slider
+	autotrader-parent/js/advanced.js
+ 
+ 2016.01.11 - version 1.3.8
+ * fixed multiselect for models
+	autotrader-parent/theme_config/extensions/seek/static/js/scripts.js
+ 
+ 2015.11.24 - version 1.3.7
+ * minor changes
+	autotrader-parent/page.php
+ * replaced .live() with .on()
+	autotrader-parent/js/advanced.js
+	autotrader-parent/js/contact_forms.js
+	autotrader-parent/js/reservation_frontend.js
+
+ 2015.08.19 - version 1.3.6
+ * minor changes for search dropdown
+	autotrader-parent/screen.css
+ 
+ 2015.07.29 - version 1.3.5
+ * minor changes for full width vehicle layout
+	autotrader-parent/single-vehicle.php
+	autotrader-parent/style.css
+ * minor changes
+	autotrader-parent/content-single.php
+	autotrader-parent/header.php
+	autotrader-parent/listing-blog.php
+	autotrader-parent/single.php
+	autotrader-parent/style.css
+ * added in message contact the seller the vehicle URL
+	autotrader-parent/js/offer_forms.js
+ 
+ 2014.09.26 - version 1.3.4
+ * minor changes
+	autotrader-parent/README.txt
+	autotrader-parent/js/preloadCssImages.js
+ 
+ 2014.09.15 - version 1.3.3
+ * minor changes
+	autotrader-parent/screen.css
+	autotrader-parent/style.css
+ 
+ 2014.04.08 - version 1.3.2
+ * minor changes
+	autotrader-parent/style.css
+	autotrader-parent/js/advanced.js
+ * fixed problem with vehicle year
+	autotrader-parent/functions.php
+	autotrader-parent/taxonomy.php
+	autotrader-parent/template-search.php
+ * fixed issue in select on mobile devices
+	autotrader-parent/js/general.js
+	autotrader-parent/screen.css
+	autotrader-parent/style.css
+
+ 2014.01.13 - version 1.3.1
+ * fixed minor bug for scroll in multiselect
+	autotrader-parent/js/general.js
+ * compatibility with theme-check plugin
+	autotrader-parent/comments.php
+	autotrader-parent/header.php
+	autotrader-parent/single.php
+	autotrader-parent/style.css
+
+ 2013.11.21 - version 1.3
+ * minor issue fixed
+	autotrader-parent/js/jquery.mousewheel.js
+	autotrader-parent/js/advanced.js
+ * solved problem with price position and year format
+	autotrader-parent/offer-views/side-right.php
+ * minor changes for translations
+	autotrader-parent/before-content.php
+
+ 2013.09.06 - version 1.2
+ * seek custom taxonomyes cutom premalink format
+    autotrader-parent/theme_config/extensions/seek/includes/custom_taxonomies.php
+    autotrader-parent/theme_config/extensions/seek/static/js/scripts.js
+    autotrader-parent/theme_config/extensions/seek/views/items/multi-taxonomy-select.php
+    autotrader-parent/theme_config/extensions/seek/views/items/sensitive-multi-taxonomy-select.php
+ * start a car search url
+    autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * breadcrumbs problem on vehicles post type
+    autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * seek number format options
+    autotrader-parent/theme_config/extensions/seek/views/zones/header.php
+    autotrader-parent/theme_config/extensions/seek/views/zones/specifications.php
+ * ajax pagination blog
+    autotrader-parent/listing-blog.php
+    
+
+ 2013.08.02 - version 1.1
+ * wp 3.6 bugs
+    autotrader-parent/js/advanced.js
+    autotrader-parent/offer-views/side-right.php
+    autotrader-parent/style.css
+
+ 2013.07.22 - version 1.0
+ * First release!

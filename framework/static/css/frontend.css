@@ -1,0 +1,86 @@
+/* common styles for fuse framework frontend */
+
+/* Style post gallery & widget galley */
+
+div[id*="gallery-"].gallery:before,
+div[id*="gallery-"].gallery:after {
+    content: " ";
+    display: table;
+}
+div[id*="gallery-"].gallery:after {
+    clear: both;
+}
+div[id*="gallery-"].gallery {
+    margin: 0 -1.79104477% !important;
+    clear: both;
+}
+div[id*="gallery-"].gallery .gallery-item {
+    display: inline-block;
+    padding-right: 1.79104477%;
+    padding-left: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+div[id*="gallery-"].gallery .gallery-item .gallery-icon {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.widget_media_gallery div[id*="gallery-"].gallery .gallery-item {
+    margin-bottom: 3.58% !important;
+}
+
+div[id*="gallery-"].gallery .gallery-item .gallery-caption {
+    display: block;
+    padding: 0.5em 0;
+}
+div[id*="gallery-"].gallery .gallery-item img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    border: none !important;
+}
+div[id*="gallery-"].gallery.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+div[id*="gallery-"].gallery.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+div[id*="gallery-"].gallery.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+div[id*="gallery-"].gallery.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+div[id*="gallery-"].gallery.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+div[id*="gallery-"].gallery.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+div[id*="gallery-"].gallery.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+div[id*="gallery-"].gallery.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+div[id*="gallery-"].gallery.gallery-columns-6 .gallery-caption,
+div[id*="gallery-"].gallery.gallery-columns-7 .gallery-caption,
+div[id*="gallery-"].gallery.gallery-columns-8 .gallery-caption,
+div[id*="gallery-"].gallery.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+div[id*="gallery-"].gallery.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+div[id*="gallery-"].gallery.gallery-columns-7 .gallery-caption,
+div[id*="gallery-"].gallery.gallery-columns-8 .gallery-caption,
+div[id*="gallery-"].gallery.gallery-columns-9 .gallery-caption {
+    display: none;
+}

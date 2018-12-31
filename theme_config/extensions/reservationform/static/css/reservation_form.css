@@ -1,0 +1,191 @@
+.reservationForm .field_text .tfuse_rf_post_datepicker_in, .reservationForm .field_text .tfuse_rf_post_datepicker_out{
+    background-image: url("../../../../../framework/static/images/picker_icon.jpg");
+    background-repeat: no-repeat;
+    background-position: 8px 10px;
+    padding-left: 30px;
+    width: 16px;
+}
+.reservationForm .tfuse_captcha_reload{
+    background-image:url(../images/reload.png) !important;
+    background-repeat: no-repeat !important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent !important;
+    border:none !important;
+    width: 20px;
+}
+.reservationForm .custom-checkbox .label_title{
+    padding-top: 0px;
+}
+.reservationForm .form_col_1 .row, .reservationForm .form_col_2 .row{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.reservationForm .form_col_1 .row .omega, .reservationForm .form_col_2 .row .omega{
+    margin-right: 0;
+}
+.reservationForm .checklist{
+    min-height: 30px;
+}
+.row .label_title {
+    color: #3f4b56;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+}
+#sending{
+    margin-top: 135px;
+    height: 32px;
+    float: left;
+}
+.box_content .form_col_3{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+.entry .form_col_3{
+    width: 94%;
+    height: 50px;
+}
+.box_content .rowSubmit, .entry .rowSubmit{
+    float: left;
+}
+.box_content .link-reset, .entry .link-reset{
+    right: 10px;
+    top: 16px;
+    left: auto;
+    position: relative;
+    text-decoration: none;
+    float: right;
+}
+.box_content #sending, .entry #sending{
+    margin-top: 10px;
+}
+.full_width .reservationForm .form_col_1,.full_width .reservationForm .form_col_2{
+    width: 434px;
+}
+.full_width .reservationForm .form_col_2{
+    margin-right: 0px;
+}
+.cols2 .reservationForm .form_col_1,.cols2 .reservationForm .form_col_2{
+    width: 275px;
+}
+.cols2 .reservationForm .form_col_2{
+    margin-right: 0px;
+}
+.entry input[type="text"],.entry input[type="password"],.entry input[type="email"],.entry .cusel, .entry .textareaField{
+    background: #fff;
+}
+.reservationForm .form_col_1, .reservationForm .form_col_2 {
+    margin: 0 30px 0 0;
+    width: 372px;
+}
+.search_row .reservationForm .form_col_3 {
+    position: relative;
+    width: 145px;
+    height: 169px;
+}
+.link-reset {
+    margin-top: 15px;
+    right: auto;
+    left: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #34a4d8 !important;
+    float: right;
+}
+.link-reset:hover{
+    color: #f25a23 !important;
+}
+.reservationForm .textareaField {
+    height: 110px;
+}
+.entry .reservationForm .form_col_3{
+    margin-top: 20px;
+}
+.search_row .rowSubmit {
+    min-height: 40px;
+}
+/* preview */
+#TB_ajaxContent .reservationForm .field_text .tfuse_rf_post_datepicker_in,#TB_ajaxContent .reservationForm .field_text .tfuse_rf_post_datepicker_out{
+    background-image: url("../../../../../framework/static/images/picker_icon.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-position: 7px 8px !important;
+    padding-left: 30px ;
+    width: 16px;
+}
+#TB_ajaxContent .form_col_1,#TB_ajaxContent .form_col_2 {
+    margin: 0 30px 0 0;
+    width: 290px;
+}
+#TB_ajaxContent .form_col_1,#TB_ajaxContent .form_col_2,#TB_ajaxContent .form_col_3 {
+    float: left;
+}
+#TB_ajaxContent select{
+    height: 32px;
+}
+#TB_ajaxContent .reservationForm .row.omega{
+    margin-right: 0px;
+}
+#TB_ajaxContent .reservationForm .form_col_2 .row{
+    margin-left: 0;
+    margin-right: 26px;
+}
+#TB_ajaxContent .form_col_2 .row.input_styled,#TB_ajaxContent .form_col_1 .row.input_styled{
+    max-width: 130px;
+}
+#TB_ajaxContent .link-reset {
+    margin-top: 15px;
+    right: auto;
+    left: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #34a4d8 !important;
+    float: right;
+}
+#TB_ajaxContent .link-reset:hover{
+    color: #f25a23 !important;
+}
+#TB_ajaxContent .btn:hover{
+    background-image: url(../../../../../images/button_hover.png);
+    background-repeat: repeat-x;
+}
+#TB_ajaxContent .btn-submit{
+    font-family: 'Cabin', sans-serif;
+    width: 180px;
+    height: 34px;
+    background-color: #f25720;
+    background: #f25720;
+    margin: 0;
+    padding: 0 0 1px 0;
+    border: 1px solid;
+    border-color: #d16546 #ca4e2a #ca5d3d #ca4e2a;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 0 1px 1px #666;
+    font-weight: 600;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.5), 0px 1px 1px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.5), 0px 1px 1px 0px rgba(0,0,0,0.15);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+}
+#TB_ajaxContent .form_col_3{
+    width: 95%;
+}
+#TB_ajaxContent .form_col_3 .rowSubmit{
+    float: left;
+}
+#TB_ajaxContent h3, #TB_ajaxContent .contact-form label {
+    color: #000;
+    font-style: normal;
+}
+#TB_ajaxContent .contact-form .field_text .inputtext {
+    margin-right: 0;
+}

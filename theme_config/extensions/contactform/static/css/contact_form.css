@@ -1,0 +1,139 @@
+.contactForm .tfuse_captcha_reload{
+    background-image:url(../images/reload.png) !important;
+    background-repeat: no-repeat !important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent !important;
+    border:none !important;
+    width: 20px;
+}
+.contactForm .custom-checkbox .label_title{
+    padding-top: 0px;
+}
+.contactForm .form_col_2 .row{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.contactForm .form_col_2 .row .omega{
+    margin-right: 0;
+}
+.contactForm .checklist{
+    min-height: 30px;
+}
+.row .label_title {
+    color: #3f4b56;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+}
+#sending{
+    margin-top: 135px;
+    height: 32px;
+    float: left;
+}
+.box_content .form_col_3{
+    width: 100%;
+    height: 50px;
+}
+.entry .form_col_3{
+    width: 94%;
+    height: 50px;
+}
+.box_content .rowSubmit, .entry .rowSubmit{
+    float: left;
+}
+.box_content .link-reset, .entry .link-reset{
+    right: 0;
+    top: 10px;
+    left: auto;
+}
+.box_content #sending, .entry #sending{
+    margin-top: 0px;
+}
+.full_width .contactForm .form_col_1,.full_width .contactForm .form_col_2{
+    width: 434px;
+}
+.full_width .contactForm .form_col_2{
+    margin-right: 0px;
+}
+.cols2 .contactForm .form_col_1,.cols2 .contactForm .form_col_2{
+    width: 275px;
+}
+.cols2 .contactForm .form_col_2{
+    margin-right: 0px;
+}
+.entry input[type="text"],.entry input[type="password"],.entry input[type="email"],.entry .cusel, .entry .textareaField{
+    background: #fff;
+}
+/* preview */
+#TB_ajaxContent .contact_form .form_col_1,#TB_ajaxContent .contact_form .form_col_2 {
+    margin: 0 30px 0 0;
+    width: 290px;
+}
+#TB_ajaxContent .form_col_1,#TB_ajaxContent .form_col_2,#TB_ajaxContent .form_col_3 {
+    float: left;
+}
+#TB_ajaxContent .contact_form select{
+    height: 32px;
+}
+#TB_ajaxContent .contactForm .row.omega{
+    margin-right: 0px;
+}
+#TB_ajaxContent .contactForm .form_col_2 .row{
+    margin-left: 0;
+    margin-right: 10px;
+}
+#TB_ajaxContent .form_col_2 .row.input_styled{
+    max-width: 135px;
+}
+#TB_ajaxContent .contact_form .link-reset {
+    top: 35px;
+    right: auto;
+    left: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #34a4d8;
+}
+#TB_ajaxContent .contact_form .link-reset:hover{
+    color: #f25a23;
+}
+#TB_ajaxContent .btn:hover{
+    background-image: url(../../../../../images/button_hover.png);
+    background-repeat: repeat-x;
+}
+#TB_ajaxContent .btn-submit{
+    font-family: 'Cabin', sans-serif;
+    width: 150px;
+    height: 34px;
+    background-color: #f25720;
+    margin: 0;
+    padding: 0 0 1px 0;
+    border: 1px solid;
+    border-color: #d16546 #ca4e2a #ca5d3d #ca4e2a;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 0 1px 1px #666;
+    font-weight: 600;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.5), 0px 1px 1px 0px rgba(0,0,0,0.15);
+    box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.5), 0px 1px 1px 0px rgba(0,0,0,0.15);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+}
+#TB_ajaxContent .contact_form .form_col_3{
+    width: 95%;
+}
+#TB_ajaxContent .contact_form .form_col_3 .rowSubmit{
+    float: left;
+}
+#TB_ajaxContent .contact_form .link-reset{
+    right: 0;
+    margin-top: 15px;
+    left: auto;
+    float: right;
+}
