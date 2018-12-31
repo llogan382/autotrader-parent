@@ -18,7 +18,7 @@
 <!-- offer left -->
 <?php 
 
-$images = get_field('lwd_vehicle_images');
+$images = get_field('gallery');
 
 if( $images ): ?>
     <div id="slider" class="flexslider">
