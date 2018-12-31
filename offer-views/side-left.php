@@ -15,15 +15,34 @@
         }
     }
 ?>
+<?
+function themeprefix_lightslider_thumbslider() {
+	$images = get_field('vehicle_images'); //add your correct field name
+		if( $images ): ?>
+	
+			<ul id="light-slider" class="image-gallery">
+			
+			<?php foreach( $images as $image ): ?>
+			
+				<li data-thumb="<?php echo $image['url']; ?>">
+					<a href=""><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
+				</li>
+	
+			<?php endforeach; ?>
+			</ul>
+		<?php endif; 
+	}
+?>
+
+
+
 <!-- offer left -->
 <div class="offer_gallery">
     <div class="gallery_images">
         <div id="gallery_images">
             <?php foreach($slider_images as $key=>$slide) : ?>
             <div class="gallery_image_item">
-            <h3>
-            LUKE
-            </h3>
+
                 <img src="<?php echo $slide['img_full']; ?>" alt="">
                 <a href="<?php echo $slide['img_full']; ?>" data-rel="prettyPhoto[gal]">
                     <span><?php echo $slide['title']; ?><em class="ico_large"></em></span></a>
