@@ -16,29 +16,81 @@
     }
 ?>
 <!-- offer left -->
-<?php 
-
-$images = get_field('gallery');
-
-if( $images ): ?>
-    <div id="slider" class="flexslider">
-        <ul class="slides">
-            <?php foreach( $images as $image ): ?>
-                <li>
-                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                    <p><?php echo $image['caption']; ?></p>
-                </li>
+<div class="offer_gallery">
+    <div class="gallery_images">
+        <div id="gallery_images">
+            <?php foreach($slider_images as $key=>$slide) : ?>
+            <div class="gallery_image_item">
+            <h3>
+            LUKE
+            </h3>
+                <img src="<?php echo $slide['img_full']; ?>" alt="">
+                <a href="<?php echo $slide['img_full']; ?>" data-rel="prettyPhoto[gal]">
+                    <span><?php echo $slide['title']; ?><em class="ico_large"></em></span></a>
+            </div>
             <?php endforeach; ?>
-        </ul>
+        </div>
     </div>
-    <div id="carousel" class="flexslider">
-        <ul class="slides">
-            <?php foreach( $images as $image ): ?>
-                <li>
-                    <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    </div>
-<?php endif; ?>
+    <?php if(!empty($slider_images)){ ?>
+        <div class="gallery_thumbs">
+            <div id="gallery_thumbs">
+                <?php foreach($slider_images as $key=>$slide) : ?>
+                    <a href="#"><img src="<?php echo $slide['img_full']; ?>" alt=""></a>
+                <?php endforeach; ?>
+            </div>
+            <a href="#" class="prev" id="gallery_thumbs_prev"></a>
+            <a href="#" class="next" id="gallery_thumbs_next"></a>
+        </div>
+
+        <script>
+            jQuery(document).ready(function() {
+                var $ = jQuery;
+                function carGalleryInit() {
+                    $('#gallery_thumbs').children().each(function(i) {
+                        $(this).addClass( 'itm'+i );
+                        $(this).click(function() {
+                            $('#gallery_images').trigger('slideTo',[i, 0, true]);
+                            $('#gallery_thumbs a').removeClass('selected');
+                            $(this).addClass('selected');
+                            return false;
+                        });
+                    });
+                    $('#gallery_thumbs a.itm0').addClass('selected');
+
+                    $('#gallery_images').carouFredSel({
+                        infinite: false,
+                        circular: false,
+                        auto: false,
+                        width: '100%',
+                        scroll: {
+                            items : 1,
+                            fx : "crossfade"
+                        }
+                    });
+                    $('#gallery_thumbs').carouFredSel({
+                        prev : "#gallery_thumbs_prev",
+                        next : "#gallery_thumbs_next",
+                        infinite: false,
+                        circular: false,
+                        auto: false,
+                        width: '100%',
+                        scroll: {
+                            items : 1
+                        }
+                    });
+                }
+
+                $(window).load(function() {
+                    carGalleryInit();
+                });
+                var resizeTimer;
+                $(window).resize(function() {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(carGalleryInit, 100);
+                });
+            });
+        </script>
+    <?php } ?>
+
+</div>
 <!--/ offer left -->
